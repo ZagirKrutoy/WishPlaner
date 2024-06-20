@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/light_gray_corners"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Выучить немецкий"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:fontFamily="@font/medium"/>
+
+        <TextView
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Создать новую цель"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/light_gray"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/add"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/add_low"
+        android:layout_gravity="center"
+        android:layout_marginEnd="10dp"/>
+
+</LinearLayout>

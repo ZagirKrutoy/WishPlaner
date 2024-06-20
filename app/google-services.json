@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "405820666219",
+    "project_id": "bucketlist-929cf",
+    "storage_bucket": "bucketlist-929cf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405820666219:android:94030fed88de38d5969c2e",
+        "android_client_info": {
+          "package_name": "com.bucket.list.bucketlist"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0vZNq4mUpazjJBcrRTa2iSOoWo8C0TaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
